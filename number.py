@@ -1,6 +1,6 @@
 c=input()
 try:
-		b=float(b)
+		c=float(c)
 		print("yes")
 except:
 		print("no")
