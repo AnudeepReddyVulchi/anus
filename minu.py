@@ -1,8 +1,8 @@
-a=int(input(" "))
-h=0
-v=a
-for i in range(0,a+1):
+c=int(input(" "))
+k=0
+v=c
+for i in range(0,c+1):
 		if(i%60==0 and i>=60):
-				h+=1
+				k+=1
 				v-=60
-print(h,v)
+print(k,v)
